@@ -8,5 +8,3 @@ RUN apt update -y \
     && apt-get autoclean && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 40000
-
-CMD ["systemctl","start warp-svc"]
